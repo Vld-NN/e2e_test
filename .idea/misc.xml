@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="Black">
+    <option name="sdkName" value="Python 3.10 (e2e_test)" />
+  </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="29b9e537-a577-4fba-8793-f4b70c06c5be" />
   </component>

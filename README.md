@@ -1,6 +1,6 @@
 # Автоматический тест e2e для saucedemo.com
 
-# Требовани
+# Требования
 Python 3.x
 Установленный Chrome или Firefox
 Установленный ChromeDriver или GeckoDriver (для Firefox)

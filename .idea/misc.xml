@@ -3,8 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="Python 3.10 (e2e_test)" />
   </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="29b9e537-a577-4fba-8793-f4b70c06c5be" />
-  </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10 (e2e_test)" project-jdk-type="Python SDK" />
 </project>

@@ -1,18 +1,21 @@
 # Автоматический тест e2e для saucedemo.com
 
 # Требования
-Python 3.x
-Установленный Chrome или Firefox
-Установленный ChromeDriver или GeckoDriver (для Firefox)
+Python 3.x;
+Установленный Chrome или Firefox;
+Установленный ChromeDriver или GeckoDriver (для Firefox).
 
 # Установка зависимостей
 Установите необходимые библиотеки с помощью pip: 
 
 bash:
 pip install selenium
+
+
 ## Запуск теста
-Скачайте репозиторий.
-Убедитесь, что драйвер браузера (ChromeDriver или GeckoDriver) доступен в PATH
+Скачайте репозиторий;
+Убедитесь, что драйвер браузера (ChromeDriver или GeckoDriver) доступен в PATH;
+
 Запустите тест: 
 
 bash:

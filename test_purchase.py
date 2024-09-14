@@ -1,3 +1,5 @@
+from wsgiref.validate import assert_
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.by import Keys
@@ -34,4 +36,14 @@ try:
 
     # 4 Проверки успешной покупки/Завершение
     success_message = driver.find_element(By.CLASS_NAME, "complet-header").text
+    assert "THANKS YOU FOR YOUR ORDER" in success_message
+
+    print('Тест успешно завершен')
+
+except Exception as e:
+    print(f'Произошла ошибка: {e}')
+finally:
+    time.sleep(3) # Время ожидание для просмотра результата
+    driver.quit()
+
 
